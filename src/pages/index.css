@@ -1,0 +1,245 @@
+/* *{
+    background-color: blue;
+} */
+
+#n1{
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+
+.navbar{
+    margin: 40px;
+    background-color: white;
+    border: 2px solid none; 
+    position:fixed;
+    box-shadow: 10px 0px 10px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+/* .arrow{
+    border-radius: 50%;
+    background-color: aquamarine;
+    color: white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 90%;
+   bottom: 90%;
+    
+}
+.arrow i{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 6px;
+
+} */
+
+.Home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 40px;
+    padding-left: 20px;
+}
+.home-text h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.home-text span{
+    color: gray;
+}
+.home-text p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.home-text button{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.button1{
+    width: 100%;
+    height: 130px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.button1  input,select{
+    width: 260px;
+    height: 50px;
+    background-color: rgb(47, 20, 20);
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.b1{
+    width: 260px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.type h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 40px 0px;
+}
+.type p{
+    line-height: 30px;
+    text-align: center;
+    width: 80%;
+    margin-left: 40px; 
+}
+
+.pt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+ .pt-card{
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    box-shadow: rgb(234, 232, 232) 0px  0px 0px 15px;
+    
+}
+.pt .pt-card:hover{
+    background-color: gray;
+    color:white;
+}
+.pt-card label{
+    width: 80px;
+    height: 70px;
+    background-color: rgb(230, 219, 219);
+    border-radius: 40px;
+    border: 1px dotted black;
+   
+}
+.pt-card img{
+    padding: 8px;
+}
+.pt-card h6{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.perfect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+.perfect-text h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-wrap: inherit;
+}
+.perfect-text p{
+    text-align: justify;
+    line-height: 28px;
+}
+.perfect-text h6{
+    margin-bottom: 15px;
+}
+.perfect-text i{
+    color: burlywood;
+    margin-right: 10px;
+}
+.perfect-text button{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}
+.perfect-img{
+    box-shadow: rgb(234, 232, 232) 0px  20px 20px 25px;
+}
+
+.property-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 60px;
+}
+.property-list h1{
+    font-weight: 800;
+}
+.property-list button{
+    width: 100px;
+    background-color: rgb(191, 159, 159);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .Home{
+        flex-direction: column-reverse;
+    }
+    .home-text button{
+    margin-bottom: 10px;
+    }
+    .button1{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 330px;
+    }
+    .button1  input,select{
+        width: 100%;
+    }
+    .pt-card{
+    width: 40%;
+    }
+    .perfect{
+        flex-direction: column;
+    }
+    .perfect-text{
+        margin-top: 30px;
+    }
+
+
+    
+}
+
+@media (max-width: 515px) {
+    .perfect-img img{
+        padding-left: 25px;
+    }
+    .perfect-text h1{
+    font-size: 30px;
+    }
+    .perfect-text{
+        margin-left: 25px;
+    }
+
+
+
+    
+
+}
+
+
