@@ -145,45 +145,66 @@ const Home=()=>{
             </div>
         </div>
 
-        <div className='property-card'>
             {/* CARD 1 */}
-              <div className="col-md-4">
-                <div className="card property-card">
-                  <div className="property-img">
-                    <img src={pr1} className="img-fluid" alt="House" />
-                    <span className="badge-sell">For Sell</span>
-                    <span className="badge-type">Apartment</span>
-                  </div>
 
-                  <div className="card-body mt-3">
-                    <div className="price">$12,345</div>
-                    <h5 className="fw-bold mt-2">Golden Urban House For Sell</h5>
-                    <p className="text-muted mb-3">
-                      <i class="fa-solid fa-location-crosshairs"></i>
-                      123 Street, New York, USA
-                    </p>
+        <div className="property-card">
 
+            <div className="card ">
+                    <div className="property-img">
+                        <img src={pr1} className="img-fluid" alt="House" />
+                            <span className="badge-sell">For Sell</span>
+                            <span className="badge-type">Apartment</span>
+                    </div>
+
+                <div className="card-body">
+                        <div className="price">$12,345</div>
+                        <h5 className="fw-bold mt-2">Golden Urban House For Sell</h5>
+                        <p className="text">
+                            <i class="fa-solid fa-location-crosshairs"></i>123 Street, New York, USA</p>
                     <hr />
 
                     <div className="row text-center features">
-                      <div className="col-4">
-                        <i class="fa-brands fa-algolia"></i><br />
-                        1000 Sqft
-                      </div>
-                      <div className="col-4">
-                        <i className="fa-solid fa-bed"></i><br />
-                        3 Bed
-                      </div>
-                      <div className="col-4">
-                       <i class="fa-solid fa-bath"></i><br />
-                        2 Bath
-                      </div>
+                      <div className="col-4"><i class="fa-brands fa-algolia"></i> <br />  1000 Sqft </div>
+                        
+                      <div className="col-4"><i className="fa-solid fa-bed"></i><br />3 Bed </div>
+                        
+                      <div className="col-4"><i class="fa-solid fa-bath"></i><br />2 Bath  </div>
                     </div>
-                  </div>
+
                 </div>
-              </div>
+            </div>
+
+             <div className="card ">
+                    <div className="property-img">
+                        <img src={pr1} className="img-fluid" alt="House" />
+                            <span className="badge-sell">For Sell</span>
+                            <span className="badge-type">Apartment</span>
+                    </div>
+
+                <div className="card-body">
+                        <div className="price">$12,345</div>
+                        <h5 className="fw-bold mt-2">Golden Urban House For Sell</h5>
+                        <p className="text">
+                            <i class="fa-solid fa-location-crosshairs"></i>123 Street, New York, USA</p>
+                    <hr />
+
+                    <div className="row text-center features">
+                      <div className="col-4"><i class="fa-brands fa-algolia"></i> <br />  1000 Sqft </div>
+                        
+                      <div className="col-4"><i className="fa-solid fa-bed"></i><br />3 Bed </div>
+                        
+                      <div className="col-4"><i class="fa-solid fa-bath"></i><br />2 Bath  </div>
+                    </div>
+
+                </div>
+            </div>
+
 
         </div>
+
+              
+
+       
 
 
 

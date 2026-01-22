@@ -194,6 +194,50 @@
     padding: 5px;
     margin-left: 5px;
 }
+.property-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    position: relative;
+}
+.card{
+    width: 25%;   
+}
+
+.badge-sell{
+    width: 70px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    left: 20px;
+    top: 20px;
+    text-align: center;
+}
+.badge-type{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: gray;
+    position: absolute;
+    border-radius: 5px;
+    left: 20px;
+    top: 185px;
+    text-align: center;
+}
+.price{
+    font-weight: 700;
+    color: gray;
+}
+.property-card i{
+    color: gray;
+    font-weight: 600;
+}
+
 
 
 @media (max-width: 768px) {
