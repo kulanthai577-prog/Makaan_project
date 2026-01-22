@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Makaan_project/static/css/main.45bdbcdc.css",
-    "main.js": "/Makaan_project/static/js/main.032df8ab.js",
+    "main.js": "/Makaan_project/static/js/main.a51f89cd.js",
     "static/media/about.jpg": "/Makaan_project/static/media/about.34742c406645c386b134.jpg",
     "static/media/carousel-1.jpg": "/Makaan_project/static/media/carousel-1.1297b20051c65b561db7.jpg",
     "static/media/carousel-2.jpg": "/Makaan_project/static/media/carousel-2.335bdd28bfa9505b60a8.jpg",
@@ -13,10 +13,10 @@
     "static/media/property-6.jpg": "/Makaan_project/static/media/property-6.3c4084344ebdbbd08f89.jpg",
     "index.html": "/Makaan_project/index.html",
     "main.45bdbcdc.css.map": "/Makaan_project/static/css/main.45bdbcdc.css.map",
-    "main.032df8ab.js.map": "/Makaan_project/static/js/main.032df8ab.js.map"
+    "main.a51f89cd.js.map": "/Makaan_project/static/js/main.a51f89cd.js.map"
   },
   "entrypoints": [
     "static/css/main.45bdbcdc.css",
-    "static/js/main.032df8ab.js"
+    "static/js/main.a51f89cd.js"
   ]
 }
