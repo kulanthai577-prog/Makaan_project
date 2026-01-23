@@ -7,9 +7,8 @@ import About from "./pages/About";
 import Property from "./pages/Property";
 import Pages from "./pages/Pages";
 import Contact from "./pages/Contact";
-
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 export default function App(){
     return(
